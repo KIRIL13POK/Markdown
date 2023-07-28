@@ -201,6 +201,42 @@ Resultado:
 | María      | 25   | Barcelona   |
 | Carlos     | 28   | Valencia    |
 
+# Agregar una imagen
+
+Para agregar una imagen en Markdown, puedes utilizar la siguiente sintaxis:
+
+```
+markdown
+![Texto alternativo de la imagen](URL de la imagen)
+```
+Donde:
+
++ ***Texto alternativo de la imagen***: Es una descripción de la imagen que se mostrará si la imagen no puede cargarse o para fines de accesibilidad. Es recomendable siempre proporcionar un texto alternativo significativo.
++ ***URL de la imagen***:Es la dirección URL de la imagen que deseas mostrar.
+
+Ejempolo:
+
+```
+markdown
+![Logo Markdown](https://automatismosmundo.com/wp-content/uploads/2020/08/Foto-Portada-Markdown820x315.jpg)
+
+```
+Resultado:
+
+![Logo Markdown](https://automatismosmundo.com/wp-content/uploads/2020/08/Foto-Portada-Markdown820x315.jpg)
+
+Si la imagen está en tu equipo o en una ubicación relativa al archivo Markdown, puedes utilizar una ruta de archivo relativa:
+
+```
+Markdown
+![Logo de Markdown](img/markdown_logo.png)
+
+```
+En este caso, la imagen "markdown_logo.png" estaría ubicada dentro de la carpeta "img" en el mismo directorio que el archivo Markdown.
+
+Resultado:
+![Logo de Markdown](img/markdown_logo.png)
+
 
 
 
