@@ -143,6 +143,26 @@ Los títulos en Markdown se crean utilizando el carácter numeral #. Cuantos má
 
    Puedes utilizar esta línea divisora para separar secciones en tu documento o para mejorar la legibilidad y organización del contenido. La línea divisora no tiene un propósito semántico, simplemente proporciona una separación visual en el texto.
 
+   # Mostrar codigo
+
+   1. Para mostrar código en Markdown, puedes utilizar varias opciones, dependiendo de la longitud y el lenguaje de programación del código. 
+
+   `console.log`
+
+2. Usando la etiqueta "javascript" después de los tres acentos graves de apertura (```) le indicas a Markdown que debe resaltar la sintaxis del código como JavaScript. De esta manera, se mostrará con colores y formato adecuado para este lenguaje.
+  ```javascript
+   console.log("Hola Mundo")
+   ```
+
+   Markdown admite una variedad de etiquetas para resaltar la sintaxis de muchos lenguajes de programación, lo que facilita la presentación de código en tus documentos y publicaciones.
+
+   
+  
+
+
+
+
+
 
 
 
