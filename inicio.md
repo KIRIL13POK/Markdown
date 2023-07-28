@@ -105,6 +105,28 @@ Los títulos en Markdown se crean utilizando el carácter numeral #. Cuantos má
 
    Contáctame por [correo electrónico](mailto:correo@example.com)
 
+   # Citas
+   Las citas en Markdown son útiles para resaltar extractos importantes de un texto o para agregar referencias y atribuciones. Puedes combinar citas con otros elementos de Markdown, como enlaces e imágenes, para crear contenido estructurado y legible.
+
+   Simplemente coloca el símbolo mayor que (>) al principio de la línea donde deseas que aparezca la cita. Puedes usar múltiples símbolos mayores (>>, >>>, etc.) para anidar citas o citar múltiples párrafos.Para crear citas en Markdown, puedes utilizar el siguiente formato:
+
+   ![cita](img/cita.png)
+
+   Resultado:
+
+   >Texto de la cita
+
+   Si deseas anidar citas, puedes hacerlo agregando más símbolos mayores:
+
+   ![cita2](img/cita2.png)
+
+   Resultado:
+   > Esta es la primera cita.
+   >> Esta es una cita anidada.
+   > Esta es otra cita.
+
+
+
 
 
    
