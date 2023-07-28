@@ -126,6 +126,27 @@ Los títulos en Markdown se crean utilizando el carácter numeral #. Cuantos má
    > Esta es otra cita.
 
 
+   # Generar línea divisora
+
+   Para generar una línea divisora en Markdown, puedes utilizar tres o más guiones (-), asteriscos (*), o guiones bajos (_) en una línea por sí solos. También puedes dejar espacios entre ellos. La cantidad de guiones, asteriscos o guiones bajos no importa, siempre que haya al menos tres caracteres en la línea. Aquí tienes algunos ejemplos:
+
+   1.![linea2](img/linia_divisora2.png)
+
+   2.![lineea1](img/linia_divisora1.png)
+
+   3.![lineea3](img/linia_divisora3.png)
+
+   Resultado:
+   ***
+   ___
+   ---
+
+   Puedes utilizar esta línea divisora para separar secciones en tu documento o para mejorar la legibilidad y organización del contenido. La línea divisora no tiene un propósito semántico, simplemente proporciona una separación visual en el texto.
+
+
+
+
+
 
 
 
