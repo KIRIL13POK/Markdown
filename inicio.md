@@ -156,6 +156,60 @@ Los títulos en Markdown se crean utilizando el carácter numeral #. Cuantos má
 
    Markdown admite una variedad de etiquetas para resaltar la sintaxis de muchos lenguajes de programación, lo que facilita la presentación de código en tus documentos y publicaciones.
 
+   # Generar tablas
+   Para generar tablas en Markdown, puedes utilizar la siguiente sintaxis:
+
+   
+   ![tabla1](img/tabla1.png)
+
+Donde:
+
+* Cada línea delimitada por | representa una fila de la tabla.
++ La segunda línea, que consiste en --- o -|-, se utiliza para separar el encabezado de la tabla del contenido.
++ Las celdas se separan mediante |.
+
+Ejemplo:
+
+![tabla2](img/tabla2.png)
+
+Resultado:
+
+| Nombre   | Edad | Ciudad      |
+|---------|------|-------------|
+| Juan    | 30   | Madrid      |
+| María   | 25   | Barcelona   |
+| Carlos  | 28   | Valencia    |
+
+Si no especificas ninguna opción de alineación, el contenido en las celdas se alineará a la izquierda de manera predeterminada.
+
+
+Las opciones de alineación para las tablas en Markdown son las siguientes:
+
++ **:---**  Alineación izquierda.
++ **---:**  Alineación derecha.
++ **:---:** Alineación centrada.
+
+Estas opciones se agregan en la segunda línea de la tabla, justo después de los guiones (-) que separan los encabezados del contenido. Por ejemplo:
+
+![tabla3](img/tabla3.png)
+
+Resultado:
+
+| Nombre     | Edad | Ciudad      |
+|:----------:|:----:|:-----------:|
+| Juan       | 30   | Madrid      |
+| María      | 25   | Barcelona   |
+| Carlos     | 28   | Valencia    |
+
+
+
+
+   
+
+
+
+
+
    
   
 
