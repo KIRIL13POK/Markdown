@@ -97,8 +97,17 @@ Los títulos en Markdown se crean utilizando el carácter numeral #. Cuantos má
    * ___Texto del enlace___: Es una descripción de la imagen que se mostrará si la imagen no puede cargarse o para fines de accesibilidad. Es recomendable siempre proporcionar un texto alternativo significativo.
 
    * correo@example.com: Es la dirección de correo electrónico que se utilizará como destino del enlace.
+   
 
    ![Texto alternativo](img/enlaces_de_correo_electrónico2.png)
+
+   Resultado:
+
+   Contáctame por [correo electrónico](mailto:correo@example.com)
+
+
+
+   
 
 
    
